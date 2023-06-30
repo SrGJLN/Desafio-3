@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.informacion{
+    display: flex;
+    justify-content: space-evenly;
+    height: 348px;
+}
+.info p{
+    width: 475px;
+    padding: 5rem;
+    font-size: 16px;
+    text-align: left;
+    
+}
+.info img{
+    width: 399px;
+    padding: 3rem;
+}
+.caracteristicas{
+    background-color: #1E1A13;
+    height: 348px;
+}
+.carac{
+    display: flex;
+    justify-content: space-evenly;
+}
+.carac i{
+    padding: 2rem;
+
+}
+h2{
+    padding: 2rem;
+}
+.galeria{
+    display: flex;
+    justify-content: space-evenly;
+    height: 348px;
+}
+.gal img{
+    width: 70%;
+    padding: 5rem;
+}
+footer{
+    background-color: #1E1A13;
+    margin: auto;
+    padding: 0.5rem
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: blueviolet;
+}
+
